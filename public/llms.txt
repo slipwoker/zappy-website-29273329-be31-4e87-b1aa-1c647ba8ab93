@@ -1,0 +1,74 @@
+# Nest And Iconic — Generative Engine Optimization Map
+
+> A dual-brand landing page showcasing two distinct hair care lines: Frija, an Italian premium brand exuding luxury, sophistication, and high-end hair care expertise; and Ziaja, a Polish accessible brand known for quality products at affordable prices for everyday consumers. The page aims to appeal to a wide audience spectrum — from those seeking a premium hair care experience to budget-conscious shoppers looking for reliable, wallet-friendly options.
+
+---
+
+## Pages
+
+### בית
+https://nest-and-iconic-29273329.zappy5.app
+הכניסי לחייך עולם של טיפוח שיער מוקפד עם המותגים פריג&#39;ה וזאיה. מצאי את המוצר המושלם לשיערך, בין אם את חולמת על יוקרה איטלקית או מחפשת איכות נגישה. התחילי את מסע הטיפוח שלך עוד היום!
+
+### תודה שפניתם אלינו
+https://nest-and-iconic-29273329.zappy5.app/thank-you
+Nest And Iconic - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://nest-and-iconic-29273329.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://nest-and-iconic-29273329.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://nest-and-iconic-29273329.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://nest-and-iconic-29273329.zappy5.app
+- Endpoint: https://nest-and-iconic-29273329.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Nest And Iconic
+A dual-brand landing page showcasing two distinct hair care lines: Frija, an Italian premium brand exuding luxury, sophistication, and high-end hair care expertise; and Ziaja, a Polish accessible brand known for quality products at affordable prices for everyday consumers. The page aims to appeal to a wide audience spectrum — from those seeking a premium hair care experience to budget-conscious shoppers looking for reliable, wallet-friendly options.
+
+## Target Audience
+- קהל רחב - מחפשי מוצרי פרימיום ומחפשי מוצרים עממיים במחיר נגיש
+- מחפשי מוצרי פרימיום
+- מחפשי מוצרים עממיים במחיר נגיש
+- צרכנים מודעים לסביבה
+- משפיעניות יופי ברשת
+- אמהות
+- אמהות טריות בחופשת לידה
+
+## Industry
+Beauty & Personal Care
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://nest-and-iconic-29273329.zappy5.app/sitemap.xml
+- Robots: https://nest-and-iconic-29273329.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://nest-and-iconic-29273329.zappy5.app/llms-full.txt
