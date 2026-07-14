@@ -32,7 +32,9 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Phone: 0503050600
+- Phone (tel): tel:0503050600
+- Address: גדרה, ישראל
 
 ### Contact form
 - URL: https://example.com
