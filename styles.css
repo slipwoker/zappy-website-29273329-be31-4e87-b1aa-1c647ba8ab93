@@ -5131,6 +5131,235 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     border-radius: 18px;
   }
 }
+
+/* Added Component Styles */
+.baby-products-section {
+  background: linear-gradient(180deg, #fdfaf5 0%, #f8f3ea 40%, #fdfaf5 100%);
+  padding: 70px 20px 80px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+}
+
+.baby-products-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.baby-products-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.baby-products-label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #9b8c72;
+  background: rgba(232, 216, 189, 0.35);
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.baby-products-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #3a3226;
+  line-height: 1.25;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.baby-products-subtitle {
+  font-size: 1.1rem;
+  color: #7a6e5e;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Grid */
+.baby-products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+/* Card */
+.baby-product-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.baby-product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08), 0 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.baby-product-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: #faf7f2;
+}
+
+.baby-product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.baby-product-card:hover .baby-product-image {
+  transform: scale(1.05);
+}
+
+.baby-product-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #c4a97d;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+
+.baby-product-badge--new {
+  background: #a8b8a0;
+}
+
+.baby-product-content {
+  padding: 18px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.baby-product-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #3a3226;
+  margin: 0 0 6px;
+  line-height: 1.3;
+}
+
+.baby-product-desc {
+  font-size: 0.9rem;
+  color: #8c8070;
+  margin: 0 0 14px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.baby-product-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #5c4e38;
+  margin-top: auto;
+}
+
+/* CTA */
+.baby-products-cta {
+  text-align: center;
+}
+
+.baby-products-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #5c4e38;
+  border: 2px solid #c4a97d;
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease, gap 0.3s ease;
+  cursor: pointer;
+}
+
+.baby-products-button:hover {
+  background: #c4a97d;
+  color: #ffffff;
+  gap: 14px;
+}
+
+.baby-products-button:focus-visible {
+  outline: 3px solid #c4a97d;
+  outline-offset: 3px;
+}
+
+.baby-products-arrow {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.baby-products-button:hover .baby-products-arrow {
+  transform: translateX(-4px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .baby-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .baby-products-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .baby-products-section {
+    padding: 50px 16px 60px;
+  }
+
+  .baby-products-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .baby-products-title {
+    font-size: 1.7rem;
+  }
+
+  .baby-products-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .baby-product-content {
+    padding: 14px 14px 16px;
+  }
+
+  .baby-product-name {
+    font-size: 0.95rem;
+  }
+
+  .baby-product-price {
+    font-size: 1.05rem;
+  }
+
+  .baby-products-button {
+    padding: 12px 28px;
+    font-size: 0.9rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
